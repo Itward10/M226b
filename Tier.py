@@ -1,4 +1,4 @@
-class Tier:
+class Tier():
     rasse = ""
     geschlecht = ""
     alter = 0
@@ -17,6 +17,5 @@ class Tier:
 
     def printAlter(self):
         print("Alter:", self.alter)
-
 
 

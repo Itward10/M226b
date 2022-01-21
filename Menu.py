@@ -1,46 +1,33 @@
 from Tier import Tier
+from Katzen import Katzenausgeben
+from Hunde import Hundeausgeben
+from Reptilien import Reptilienausgeben
+from Voegel import Voegelausgeben
 class Menu:
-
     __Tier: Tier = None
+    def __showMenu():
+        loop = True
+        while loop:
 
-    def showMenu (self):
-        print("Bitte wählen sie:")
-        print("k: Alle Katzen anzeigen")
-        print("h: Alle Hunde anzeigen")
-        print("r: Alle Reptilien anzeigen")
-        print("v: Alle Vögel anzeigen")
-        print("o: Ausloggen")
-        print("x: Beenden")
-        result: str = input()
+            print("Bitte wählen sie:")
+            print("1: alle Katzen anzeigen")
+            print("2: alle Hunde anzeigen")
+            print("3: alle Reptilien anzeigen")
+            print("4: alle Vögel anzeigen")
+            print("5: Beenden")
+            tierbuchstabeneingabe = str((input("Bitte wähle eine Zahl Zwischen 1-5:")))
 
-        # Switch statements are more complicated in python. therefore we use if-elseif
-        if result == "x":
-            self.__exit()
-        elif result == "k":
-            self.__Katzen()
-        elif result == "h":
-            self.__Hunde()
-        elif result == "a":
-            self.__Reptilien()
-        elif result == "v":
-            self.__Voegel()
+            if tierbuchstabeneingabe == "1":
+                Katzenausgeben()
+            elif tierbuchstabeneingabe == "2":
+                Hundeausgeben()
+            elif tierbuchstabeneingabe == "3":
+                Reptilienausgeben()
+            elif tierbuchstabeneingabe == "4":
+                Voegelausgeben()
+            elif tierbuchstabeneingabe == "5":
+                loop = False
 
-
-    def __Katzen(self):
-        print(Katzen)
-
-    def __Hunde(self):
-        print(Hunde)
-
-    def __Reptilien(self):
-        print(Reptilien)
-
-    def __Voegel(self):
-        print(Voegel)
-
-    def __exit(self):
-        print("Wir wünschen ihnen einen schönen tag")
-        exit()
-
+    __showMenu()
 
 
