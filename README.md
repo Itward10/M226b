@@ -19,6 +19,7 @@ Für Kunden sollte es möglich sein die Tiere Online anzusehen und wenn sie Inte
 ![image](https://user-images.githubusercontent.com/89509863/150640273-aae98936-95c3-4f3b-b3b2-db3d1c5003fd.png)
 
 ## Usecasediagramm
+![image](https://user-images.githubusercontent.com/89509863/150640565-29990fd9-736b-4910-a1ac-cfc823d80c96.png)
 
 
 ## Self-Reflection
