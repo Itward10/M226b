@@ -12,3 +12,9 @@ Auch wollten wir es möglich machen, dass das Tierheim Tiere hinzufügen oder ra
 Mit einem Login wollten wir garantieren, dass nicht jeder zugriff auf die Datenbank hat.
 
 Für Kunden sollte es möglich sein die Tiere Online anzusehen und wenn sie Interesse haben einen Termin abzumachen, um das Tier kennenzulernen.
+
+
+## Klassendiagramm
+![image](https://user-images.githubusercontent.com/89509863/150640273-aae98936-95c3-4f3b-b3b2-db3d1c5003fd.png)
+
+## Usecasediagramm
