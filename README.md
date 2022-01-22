@@ -2,7 +2,7 @@
 
 ## Unser Projekt
 
-Unser Programm ist Such Katalog für einen Tierheim. In diesem Katalog kann man sich zwischen Hunde, Katzen, Reptilien und Vögel entscheiden.
+Unser Programm ist ein Such Katalog für einen Tierheim. In diesem Katalog kann man sich zwischen Hunde, Katzen, Reptilien und Vögel entscheiden.
 Mit unserem einfach aufgebauten Menu ist navigation zu den jeweiligen Tier nicht schwer.
 ![image](https://user-images.githubusercontent.com/89509863/150639979-4510b6f3-c79a-4605-8de3-30004bf32e0d.png)
 
